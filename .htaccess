@@ -1,0 +1,6 @@
+Options -Indexes
+
+<FilesMatch "\.(?:md|txt|php)$">
+Order allow,deny
+Deny from all
+</FilesMatch>
